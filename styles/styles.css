@@ -1,0 +1,133 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: "Manrope", sans-serif;
+}
+
+
+.nav-container {
+    margin: 0 auto;
+    width: 1400px;
+    padding: 32px 125px 70px 125px;
+}
+
+.logo {
+    height: 21px;
+    display: inline-block;
+}
+
+.logo-link {
+    width: 126px;
+    height: 21px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-link {
+    margin-right: 60px;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.03em;
+    color: #121212;
+    text-decoration: none;
+}
+
+.menu-link:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.menu-link:hover {
+    opacity: 50%;
+    border-bottom: 1px solid #121212;
+}
+
+.main-section {
+    margin: 0 auto;
+    width: 1400px;
+    height: 650px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    width: 956px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #121212;
+
+}
+
+.interior {
+    width: 1150px;
+    height: 500px;
+    position: absolute;
+    background-image: url(/resources/main-interior.png);
+}
+
+.text-interior {
+    width: 430px;
+    position: relative;
+    left: 40px;
+    top: 379px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: white;
+
+}
+
+.about {
+    margin: 0 auto;
+    width: 1400px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+h2 {
+    margin-top: 150px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #121212;
+
+}
+
+.about-text {
+    margin-bottom: 30px;
+    width: 1048px;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 61.47px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
+}
+
+.btn {
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 67px;
+    letter-spacing: -0.03em;
+    border-radius: 5PX;
+    text-decoration: none;
+    color: white;
+    background-color: #AD1818;
+}
+
+.btn:hover{
+    background-color: #921313;
+}
