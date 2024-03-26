@@ -69,7 +69,7 @@ h1 {
     width: 1150px;
     height: 500px;
     position: relative;
-    background-image: url(../resources/main-interior.png);
+    background-image: url(/resources/main-interior.png);
 }
 
 .text-interior {
@@ -105,6 +105,10 @@ h2 {
 
 }
 
+h2:nth-last-child(2) {
+    margin: 0;
+}
+
 .about-text {
     margin-bottom: 30px;
     width: 1048px;
@@ -128,6 +132,223 @@ h2 {
     background-color: #AD1818;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #921313;
+}
+
+.projects {
+    margin: 0 auto;
+    width: 1400px;
+    padding: 0 125px 150px 125px;
+}
+
+.project {
+    padding-bottom: 90px;
+}
+
+.project-title {
+    padding: 15px 0 15px 0;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #121212;
+
+}
+
+.projekt-link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #AD1818;
+
+}
+
+.projects-btn {
+    display: block;
+    width: 100%;
+    height: 153px;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 153px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: #AD1818;
+
+}
+
+.projects-btn:hover {
+    background-color: #AD1818;
+    color: white;
+}
+
+.container-services {
+    margin: 0 auto;
+    width: 1400px;
+    padding: 0 125px 150px 125px;
+}
+
+.services-titl {
+    padding-bottom: 35px;
+    color: white;
+}
+
+.services {
+    padding-top: 150px;
+    background-color: #121212;
+}
+
+.service {
+    margin-bottom: 60px;
+}
+
+.service:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+
+.servic-titl {
+    padding-top: 15px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: white;
+
+}
+
+.fullscrn {
+    width: 100%;
+    height: 717px;
+    position: relative;
+    background-image: url(/resources/fullscrn-interior.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.container-fullscrn {
+    margin: 0 auto;
+    width: 1400px;
+    padding: 0 125px;
+}
+
+.fullscrn-title {
+    width: 443px;
+    position: absolute;
+    bottom: 60px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: white;
+
+}
+
+.contacts {
+    margin: 0 auto;
+    width: 1400px;
+    padding: 0 125px;
+}
+
+.contacts-title {
+    margin: 0;
+    padding: 150px 0 32px 0;
+}
+
+.contacts-title::before {
+    content: "";
+    display: block;
+    margin-bottom: 12px;
+    width: 24px;
+    height: 24px;
+    background-image: url(/resources/icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contacts-tel {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #121212;
+    text-decoration: none;
+}
+
+.contacts-tel:hover {
+    color: #AD1818;
+}
+
+.contacts-mail {
+    display: inline-block;
+    margin-bottom: 160px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    border-bottom: 2px solid #121212;
+    padding-bottom: 10px;
+    color: #121212;
+    text-decoration: none;
+    opacity: 50%;
+
+}
+
+.contacts-mail:hover {
+    color: #AD1818;
+    border-bottom: 2px solid #AD1818;
+    opacity: 100%;
+}
+
+footer {
+    background-color: #121212;
+}
+
+.footer-container {
+    padding: 60px 125px 30px 125px;
+}
+
+.footer-nav {
+    text-align: center;
+}
+
+.footer-link {
+    margin-right: 53px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+
+}
+
+.footer-link:hover {
+    opacity: 50%;
+}
+
+.footer-link:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.footer-text {
+    padding-top: 87px;
+    text-align: center;
+    color: white;
+    opacity: 50%;
 }
