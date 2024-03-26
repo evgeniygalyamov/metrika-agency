@@ -69,7 +69,7 @@ h1 {
     width: 1150px;
     height: 500px;
     position: relative;
-    background-image: url(/resources/main-interior.png);
+    background-image: url(./resources/main-interior.png);
 }
 
 .text-interior {
