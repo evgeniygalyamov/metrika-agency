@@ -11,7 +11,7 @@ body {
 .nav-container {
     margin: 0 auto;
     width: 1400px;
-    padding: 32px 125px 70px 125px;
+    padding: 36px 125px 70px 125px;
 }
 
 .logo {
@@ -147,7 +147,7 @@ h2:nth-last-child(2) {
 }
 
 .project-title {
-    padding: 15px 0 15px 0;
+    padding: 14px 0 15px 0;
     font-size: 30px;
     font-weight: 400;
     line-height: 40.98px;
