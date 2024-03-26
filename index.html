@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Сайт</title>
+  <title>Метрика</title>
 
   <link rel="stylesheet" href="styles/reset.css">
 
@@ -18,6 +18,7 @@
 
 <body>
 
+  <!-- НАВИГАЦИЯ -->
   <header>
     <nav>
       <div class="nav-container">
@@ -25,10 +26,10 @@
           <img class="logo-link" src="./resources/logo.png" alt="логотип студии метрика">
         </a>
         <div class="menu">
-          <a href="/" class="menu-link">О НАС</a>
-          <a href="/" class="menu-link">ПРОЕКТЫ</a>
-          <a href="/" class="menu-link">УСЛУГИ</a>
-          <a href="/" class="menu-link">КОНТАКТЫ</a>
+          <a href="#about" class="menu-link">О НАС</a>
+          <a href="#projects" class="menu-link">ПРОЕКТЫ</a>
+          <a href="#services" class="menu-link">УСЛУГИ</a>
+          <a href="#contacts" class="menu-link">КОНТАКТЫ</a>
         </div>
       </div>
     </nav>
@@ -48,7 +49,7 @@
     </section>
 
     <!-- О НАС -->
-    <section class="about">
+    <section id="about" class="about">
       <h2>О НАС</h2>
       <p class="about-text">
         Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за
@@ -58,9 +59,82 @@
       <a href="/" class="btn">Посмотреть услуги</a>
     </section>
 
+    <!-- ПРОЕКТЫ -->
+    <section id="projects" class="projects">
+      <h2>ПРОЕКТЫ</h2>
+      <ul>
+        <li class="project">
+          <img src="/resources/project1.png" alt="фото ЖК ПРАВОБЕРЕЖНЫЙ">
+          <p class="project-title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</p>
+          <a class="projekt-link" href="/">Подробнее →</a>
+        </li>
+        <li class="project">
+          <img src="/resources/project2.png" alt="фото ЖК НОРВЕЖСКИЙ ПАРК">
+          <p class="project-title">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</p>
+          <a class="projekt-link" href="/">Подробнее →</a>
+        </li>
+        <li class="project">
+          <img src="/resources/project3.png" alt="фото ЖК СОСНОВСКИЕ ОЗЕРА">
+          <p class="project-title">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</p>
+          <a class="projekt-link" href="/">Подробнее →</a>
+        </li>
+      </ul>
+      <a href="/" class="projects-btn">Смотреть все проекты</a>
+    </section>
+
+    <!-- УСЛУГИ -->
+    <section class="services">
+      <div class="container-services">
+        <h2 id="services" class="services-titl">УСЛУГИ</h2>
+        <ul>
+          <li class="service">
+            <img src="/resources/sec1.png" alt="Планировочное решение">
+            <p class="servic-titl">Планировочное решение — от 2500₽/м²</p>
+          </li>
+          <li class="service">
+            <img src="/resources/sec2.png" alt="Дизайн-проект">
+            <p class="servic-titl">Дизайн-проект — от 3000₽/м²</p>
+          </li>
+          <li class="service">
+            <img src="/resources/sec3.png" alt="Авторский надзор">
+            <p class="servic-titl">Авторский надзор — от 30 000₽ в месяц</p>
+          </li>
+          <li class="service">
+            <img src="/resources/sec4.png" alt="Комплектация">
+            <p class="servic-titl">Комплектация — 5% от стоимости спецификации</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ПЕРЕБИВКА ИНТЕРЬЕР -->
+    <section class="fullscrn">
+      <div class="container-fullscrn">
+        <p class="fullscrn-title">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+      </div>
+    </section>
+
+    <!-- КОНТАКТЫ -->
+    <section class="contacts">
+      <h2 id="contacts" class="contacts-title">КОНТАКТЫ</h2>
+      <p> <a class="contacts-tel" href="tel:+79358954553">+7 935 895-45-35</a> </p>
+      <p> <a class="contacts-mail" href="mailto:hello@mail.com">hello@mail.com</a> </p>
+    </section>
+
   </main>
 
-
+  <!-- ПОДВАЛ -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-nav">
+        <a href="#about" class="footer-link">О НАС</a>
+        <a href="#projects" class="footer-link">ПРОЕКТЫ</a>
+        <a href="#services" class="footer-link">УСЛУГИ</a>
+        <a href="#contacts" class="footer-link">КОНТАКТЫ</a>
+      </div>
+      <p class="footer-text">студия дизайна интерьера Метрика — 2023</p>
+    </div>
+  </footer>
 
 
 </body>
