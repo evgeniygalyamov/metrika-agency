@@ -68,15 +68,15 @@ h1 {
 .interior {
     width: 1150px;
     height: 500px;
-    position: absolute;
+    position: relative;
     background-image: url(../resources/main-interior.png);
 }
 
 .text-interior {
     width: 430px;
-    position: relative;
+    position: absolute;
     left: 40px;
-    top: 379px;
+    bottom: 40px;
     font-size: 20px;
     font-weight: 400;
     line-height: 27.32px;
