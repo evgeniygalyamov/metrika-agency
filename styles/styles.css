@@ -1,1 +1,287 @@
+html {
+    scroll-behavior: smooth;
+}
 
+
+body {
+    font-family: "Manrope", sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 0 15px;
+}
+
+.nav {
+    margin: 33px 0 70px 0;
+}
+
+.nav__logo {
+    width: 127px;
+    height: 22px;
+    display: inline-block;
+}
+
+.nav__menu {
+    float: right;
+}
+
+.nav__menu-link {
+    margin-right: 60px;
+    font-size: 18px;
+    letter-spacing: -0.03em;
+    line-height: 22px;
+    color: #121212;
+    text-decoration: none;
+}
+
+.nav__menu-link:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.nav__menu-link:hover {
+    opacity: 50%;
+    border-bottom: 1px solid#121212;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.main {
+    margin-bottom: 150px;
+}
+
+.main__img {
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    height: 500px;
+    background-image: url(../resources/main-interior.png);
+    background-repeat: no-repeat;
+}
+
+.main__img-content {
+    width: 430px;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    color: white;
+
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.about__content {
+    width: 1048px;
+    font-size: 45px;
+    line-height: 61.47px;
+    letter-spacing: -0.03em;
+
+}
+
+.about {
+    margin-bottom: 150px;
+}
+
+.about__btn {
+    margin-top: 30px;
+    padding: 0 40px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 67px;
+    letter-spacing: -0.03em;
+    border-radius: 5px;
+    color: white;
+    background-color: #AD1818;
+
+}
+
+.about__btn:hover {
+    background-color: #851212;
+}
+
+.projects {
+    margin-bottom: 150px;
+}
+
+.projekts__list-card {
+    margin-bottom: 90px;
+}
+
+.projekts__list-card-img {
+    width: 100%;
+}
+
+.projekts__list-card-title {
+    margin: 15px 0;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    color: #121212;
+
+}
+
+.projekts__list-card-link {
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+
+}
+
+.projects__btn {
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    line-height: 153px;
+    letter-spacing: -0.03em;
+    border: 1px solid #AD1818;
+    text-align: center;
+    color: #AD1818;
+    border-radius: 5px;
+}
+
+.projects__btn:hover {
+    background-color: #AD1818;
+    color: white;
+}
+
+.services {
+    background-color: #121212;
+}
+
+.services__list-card {
+    padding-bottom: 60px;
+}
+
+
+.services__list-card:nth-last-child(1) {
+    padding-bottom: 150px;
+}
+
+.services__list-card-img {
+    width: 100%;
+}
+
+.services__title {
+    padding-top: 150px;
+    color: white;
+}
+
+.services__list-card-titl {
+    margin-top: 15px;
+}
+
+.services__list-card-titl {
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+.interior {
+    margin-bottom: 150px;
+    width: 100%;
+    height: 717px;
+    position: relative;
+    background-image: url(../resources/fullscrn-interior.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.interior__content {
+    position: absolute;
+    bottom: 60px;
+    font-size: 30px;
+    line-height: 40.98px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+.contakts__title-befor::before {
+    margin-bottom: 12px;
+    width: 24px;
+    height: 24px;
+    content: "";
+    display: block;
+    background-image: url(../resources/icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contakts__telefon {
+    margin-bottom: 30px;
+    display: block;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.contakts__mail {
+    width: 412px;
+    padding-bottom: 10px;
+    display: block;
+    border-bottom: 2px solid#121212;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #121212;
+    opacity: 50%;
+}
+
+.footer {
+    margin-top: 150px;
+    background-color: #121212;
+}
+
+.footer__nav {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.footer__nav-link:nth-child(4) {
+    padding-right: 0;
+}
+
+.footer__nav-link {
+    padding-right: 55px;
+    font-size: 18px;
+    line-height: 24.59px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+.footer__nav-link:hover {
+    opacity: 50%;
+}
+
+.footer__desctiption {
+    padding: 87px 0 50px 0;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: white;
+    opacity: 50%;
+}
