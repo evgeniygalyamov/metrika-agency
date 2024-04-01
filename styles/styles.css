@@ -51,17 +51,18 @@ a {
 }
 
 h1 {
+    width: 956px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
     color: #121212;
 }
 
-.main {
+.box{
     margin-bottom: 150px;
 }
 
-.main__img {
+.box__img {
     margin-top: 30px;
     width: 100%;
     position: relative;
@@ -70,7 +71,7 @@ h1 {
     background-repeat: no-repeat;
 }
 
-.main__img-content {
+.box__img-content {
     width: 430px;
     position: absolute;
     bottom: 40px;
@@ -123,15 +124,15 @@ h2 {
     margin-bottom: 150px;
 }
 
-.projekts__list-card {
+.project {
     margin-bottom: 90px;
 }
 
-.projekts__list-card-img {
+.project__img {
     width: 100%;
 }
 
-.projekts__list-card-title {
+.project__title {
     margin: 15px 0;
     font-size: 30px;
     line-height: 40.98px;
@@ -140,7 +141,7 @@ h2 {
 
 }
 
-.projekts__list-card-link {
+.project__link {
     font-size: 20px;
     line-height: 27.32px;
     letter-spacing: -0.03em;
@@ -166,6 +167,7 @@ h2 {
 }
 
 .services {
+    padding: 150px 0 150px 0;
     background-color: #121212;
 }
 
@@ -175,7 +177,7 @@ h2 {
 
 
 .services__list-card:nth-last-child(1) {
-    padding-bottom: 150px;
+    padding-bottom: 0;
 }
 
 .services__list-card-img {
@@ -183,7 +185,6 @@ h2 {
 }
 
 .services__title {
-    padding-top: 150px;
     color: white;
 }
 
@@ -218,7 +219,7 @@ h2 {
     color: white;
 }
 
-.contakts__title-befor::before {
+.contacts__title-befor::before {
     margin-bottom: 12px;
     width: 24px;
     height: 24px;
@@ -229,7 +230,7 @@ h2 {
     background-repeat: no-repeat;
 }
 
-.contakts__telefon {
+.contacts__telefon {
     margin-bottom: 30px;
     display: block;
     font-size: 60px;
@@ -238,7 +239,7 @@ h2 {
     color: #121212;
 }
 
-.contakts__mail {
+.contacts__mail {
     width: 412px;
     padding-bottom: 10px;
     display: block;
