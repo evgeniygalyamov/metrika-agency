@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Метрика</title>
+  <title>Интерьеры для комфортной жизни Метрика</title>
 
   <link rel="stylesheet" href="styles/reset.css">
 
@@ -21,17 +21,19 @@
   <header>
 
     <!-- НАВИГАЦИЯ -->
-    <section class="nav">
+    <section class="navigation">
       <div class="container">
         <a href="#">
           <img src="./resources/logo.png" alt="Метрика логотип" class="nav__logo">
         </a>
-        <ul class="nav__navbar">
-          <li class="nav__navbar-item"><a href="#about" class="nav__navbar-item-link">О НАС</a></li>
-          <li class="nav__navbar-item"><a href="#projects" class="nav__navbar-item-link">ПРОЕКТЫ</a></li>
-          <li class="nav__navbar-item"><a href="#services" class="nav__navbar-item-link">УСЛУГИ</a></li>
-          <li class="nav__navbar-item"><a href="#contaсts" class="nav__navbar-item-link">КОНТАКТЫ</a></li>
-        </ul>
+        <nav class="mainnav">
+          <ul class="mainnav__nav-navbar">
+            <li class="mainnav__nav-navbar-item"><a href="#about" class="mainnav__nav-navbar-item-link">О НАС</a></li>
+            <li class="mainnav__nav-navbar-item"><a href="#projects" class="mainnav__nav-navbar-item-link">ПРОЕКТЫ</a></li>
+            <li class="mainnav__nav-navbar-item"><a href="#services" class="mainnav__nav-navbar-item-link">УСЛУГИ</a></li>
+            <li class="mainnav__nav-navbar-item"><a href="#contaсts" class="mainnav__nav-navbar-item-link">КОНТАКТЫ</a></li>
+          </ul>
+        </nav>
       </div>
     </section>
 
@@ -105,25 +107,25 @@
         </h2>
         <ul class="services__list">
           <li class="services__list-card">
-            <img src="/resources/sec1.png" alt="план" class="services__list-card-img">
+            <img src="./resources/sec1.png" alt="план" class="services__list-card-img">
             <p class="services__list-card-titl">
               Планировочное решение — от 2500₽/м²
             </p>
           </li>
           <li class="services__list-card">
-            <img src="/resources/sec2.png" alt="проекты" class="services__list-card-img">
+            <img src="./resources/sec2.png" alt="проекты" class="services__list-card-img">
             <p class="services__list-card-titl">
               Дизайн-проект — от 3000₽/м²
             </p>
           </li>
           <li class="services__list-card">
-            <img src="/resources/sec3.png" alt="надзор" class="services__list-card-img">
+            <img src="./resources/sec3.png" alt="надзор" class="services__list-card-img">
             <p class="services__list-card-titl">
               Авторский надзор — от 30 000₽ в месяц
             </p>
           </li>
           <li class="services__list-card">
-            <img src="/resources/sec4.png" alt="комплектация" class="services__list-card-img">
+            <img src="./resources/sec4.png" alt="комплектация" class="services__list-card-img">
             <p class="services__list-card-titl">
               Комплектация — 5% от стоимости спецификации
             </p>
@@ -155,13 +157,23 @@
   <!-- ПОДВАЛ -->
   <footer>
     <div class="container">
-        <ul class="footer__nav">
-          <li class="footer__nav-item"><a href="#about" class="footer__nav-item-link">О НАС</a></li>
-          <li class="footer__nav-item"><a href="#projects" class="footer__nav-item-link">ПРОЕКТЫ</a></li>
-          <li class="footer__nav-item"><a href="#services" class="footer__nav-item-link">УСЛУГИ</a></li>
-          <li class="footer__nav-item"><a href="#contacts" class="footer__nav-item-link">КОНТАКТЫ</a></li>
+      <nav class="footernav">
+        <ul class="footernav__navbar">
+          <li class="footernav__navbar-menu">
+            <a href="#about" class="footernav__navbar-menu-link">О НАС</a>
+          </li>
+          <li class="footernav__navbar-menu">
+            <a href="#projects" class="footernav__navbar-menu-link">ПРОЕКТЫ</a>
+          </li>
+          <li class="footernav__navbar-menu">
+            <a href="#services" class="footernav__navbar-menu-link">УСЛУГИ</a>
+          </li>
+          <li class="footernav__navbar-menu">
+            <a href="#contacts" class="footernav__navbar-menu-link">КОНТАКТЫ</a>
+          </li>
         </ul>
-      <p class="footer__desctiption">студия дизайна интерьера Метрика — 2023</p>
+        <p class="footer__description">студия дизайна интерьера Метрика — 2023</p>
+      </nav>
     </div>
 
   </footer>
