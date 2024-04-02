@@ -19,8 +19,12 @@ a {
     padding: 0 15px;
 }
 
-.nav {
+.navigation {
     margin: 33px 0 70px 0;
+}
+
+.mainnav{
+    float: right;
 }
 
 .nav__logo {
@@ -29,16 +33,12 @@ a {
     display: inline-block;
 }
 
-.nav__navbar {
-    float: right;
-}
-
-.nav__navbar-item{
+.mainnav__nav-navbar-item{
     display: inline;
     margin-right: 60px;
 }
 
-.nav__navbar-item-link {
+.mainnav__nav-navbar-item-link {
     font-size: 18px;
     letter-spacing: -0.03em;
     line-height: 22px;
@@ -50,7 +50,7 @@ a {
     margin-right: 0;
 }
 
-.nav__navbar-item-link:hover {
+.mainnav__nav-navbar-item-link:hover {
     opacity: 50%;
     border-bottom: 1px solid#121212;
 }
@@ -267,37 +267,39 @@ footer {
     background-color: #121212;
 }
 
-.footer__nav {
+.footernav{
     padding-top: 60px;
+}
+
+.footernav__navbar{
     text-align: center;
 }
 
-.footer__nav-item{
-    display: inline;
+.footernav__navbar-menu{
     padding-right: 55px;
+    display: inline;
 }
 
-.footer__nav-item:nth-child(4) {
+.footernav__navbar-menu:nth-child(4){
     padding-right: 0;
 }
+    
 
-.footer__nav-item-link {
-    font-size: 18px;
-    line-height: 24.59px;
-    letter-spacing: -0.03em;
-    color: white;
+.footernav__navbar-menu-link{
+font-size: 18px;
+letter-spacing: -0.03em;
+color: #fff;
 }
 
-.footer__nav-item-link:hover {
+.footernav__navbar-menu-link:hover{
     opacity: 50%;
 }
 
-.footer__desctiption {
-    padding: 87px 0 50px 0;
-    font-size: 20px;
-    line-height: 27.32px;
-    letter-spacing: -0.03em;
-    text-align: center;
-    color: white;
-    opacity: 50%;
+.footer__description{
+    padding: 87px 0 30px 0;
+font-size: 20px;
+letter-spacing: -0.03em;
+color: #fff;
+opacity: 50%;
+text-align: center;
 }
