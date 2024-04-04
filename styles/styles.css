@@ -23,7 +23,7 @@ a {
     margin: 33px 0 70px 0;
 }
 
-.mainnav{
+.mainnav {
     float: right;
 }
 
@@ -33,7 +33,7 @@ a {
     display: inline-block;
 }
 
-.mainnav__nav-navbar-item{
+.mainnav__nav-navbar-item {
     display: inline;
     margin-right: 60px;
 }
@@ -63,7 +63,7 @@ h1 {
     color: #121212;
 }
 
-.box{
+.box {
     margin-bottom: 150px;
 }
 
@@ -226,7 +226,7 @@ h2 {
     color: white;
 }
 
-.contacts{
+.contacts {
     margin: 150px 0 150px 0;
 }
 
@@ -263,43 +263,40 @@ h2 {
 }
 
 footer {
-    margin-top: 150px;
+    padding: 60px 0 30px 0;
     background-color: #121212;
 }
 
-.footernav{
-    padding-top: 60px;
-}
 
-.footernav__navbar{
+.footer__nav-navbar {
     text-align: center;
 }
 
-.footernav__navbar-menu{
+.footer__nav-navbar-menu {
     padding-right: 55px;
     display: inline;
 }
 
-.footernav__navbar-menu:nth-child(4){
+.footer__nav-navbar-menu:nth-child(4) {
     padding-right: 0;
 }
-    
 
-.footernav__navbar-menu-link{
-font-size: 18px;
-letter-spacing: -0.03em;
-color: #fff;
+
+.footer__nav-navbar-menu-link {
+    font-size: 18px;
+    letter-spacing: -0.03em;
+    color: #fff;
 }
 
-.footernav__navbar-menu-link:hover{
+.footer__nav-navbar-menu-link:hover {
     opacity: 50%;
 }
 
-.footer__description{
-    padding: 87px 0 30px 0;
-font-size: 20px;
-letter-spacing: -0.03em;
-color: #fff;
-opacity: 50%;
-text-align: center;
+.footer__description {
+    padding-top: 87px;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    color: #fff;
+    opacity: 50%;
+    text-align: center;
 }
