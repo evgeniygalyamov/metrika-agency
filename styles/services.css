@@ -1,0 +1,150 @@
+.services {
+    padding: 150px 0;
+    background-color: #121212;
+}
+
+.services__title {
+    color: white;
+}
+
+.services-cardslist {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 150px;
+    column-gap: 10px;
+
+}
+
+
+
+.services-cardslist__item {
+    position: relative;
+    width: calc(50% - 5px);
+    height: auto;
+}
+
+.services-cardslist__img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.services-cardslist__price {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 0 20px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    color: #fff;
+    background-color: #AD1818;
+}
+
+.services-cardslist__text {
+    margin-top: 25px;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+
+
+
+
+.services-btn {
+    margin-top: 106px;
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+    line-height: 153px;
+    text-align: center;
+    color: #fff;
+    background-color: #AD1818;
+    border-radius: 5px;
+}
+
+.services-btn:hover {
+    background-color: #851212;
+}
+
+
+@media (max-width: 960px){
+
+    .services {
+        padding: 120px 0;
+    }
+
+
+    .services-cardslist {
+        row-gap: 136px;
+        column-gap: 10px;
+
+    }
+
+
+    .services-cardslist__price {
+        top: 32px;
+        left: 32px;
+        padding: 0 25px;
+        font-size: 20px;
+    }
+
+    .services-cardslist__text {
+        margin-top: 15px;
+        font-size: 25px;
+        letter-spacing: -0.03em;
+        color: #fff;
+    }
+
+    .services-btn {
+        margin-top: 80px;
+
+    }
+
+}
+
+@media (max-width: 639px) {
+
+    .services {
+        padding: 80px 0;
+    }
+
+
+
+    .services-cardslist {
+        row-gap: 100px;
+
+    }
+
+
+    .services-cardslist__price {
+        font-size: 14px;
+        top: 23px;
+        left: 23px;
+        padding: 0 23px;
+    }
+
+    .ervices-cardslist__text {
+        margin-top: 10px;
+        font-size: 18px;
+        letter-spacing: -0.03em;
+        color: #fff;
+    }
+
+    .services-cardslist__item {
+        width: 100%;
+        height: auto;
+    }
+
+    .services-btn {
+        margin-top: 60px;
+        font-size: 22px;
+        line-height: 100px;
+
+    }
+
+}
