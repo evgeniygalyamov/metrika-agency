@@ -9,10 +9,12 @@
 .contacts__wrapper {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 100px;
 }
 
-
+.mail__wrapper,
+.phone__wrapper {
+    width: 50%;
+}
 
 .phone__wrapper-link {
 
@@ -54,18 +56,7 @@
     background-size: contain;
 }
 
-@media (max-width: 1000px){
 
-    .phone__wrapper-link {
-        font-size: 45px;
-    }
-
-
-    .mail__wrapper-link {
-        font-size: 45px;
-    }
-
-}
 
 @media (max-width: 960px){
 
@@ -109,7 +100,11 @@
     .mail__wrapper-link {
         font-size: 45px;
     }
-
+    
+    
+    .contacts__wrapper {
+        flex-direction: column;
+    }
 
     .phone__wrapper-link::before {
         margin-bottom: 20px;
@@ -123,8 +118,12 @@
         line-height: 45.62px;
 
     }
+    .phone__wrapper{
+        width: 100%;
+    }
 
     .mail__wrapper {
+        width: 100%;
         margin-top: 23px;
     }
 
@@ -144,5 +143,3 @@
         height: 18px;
 
     }
-
-}
