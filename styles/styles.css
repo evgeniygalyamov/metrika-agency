@@ -18,6 +18,11 @@ body {
 
 }
 
+.body_fixed {
+    overflow: hidden;
+}
+
+
 
 a {
     text-decoration: none;
