@@ -2,20 +2,116 @@
     margin: 33px 0 70px 0;
 }
 
+.burger {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: rgb(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+}
+
+.burger_open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.burger__content {
+    padding:80px 0 0 30px ;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+}
+
+.burger-btn {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    right: 10px;
+    z-index: 100;
+    display: none;
+}
+
+.burger-img {
+    width: 40px;
+    height: auto;
+}
+
+.burger__nav-logo {
+    width: 156px;
+    height: 26px;
+
+}
+
+.header-inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header-nav {
-    float: right;
+    display: flex;
+
+}
+
+.burger__nav-item{
+    margin-bottom: 20px;
+}
+
+.burger__nav-link{
+    font-size: 25px;
+    line-height: 34.15px;
+    letter-spacing: -0.03em;
+    color: #121212;
+    text-decoration: none;
+}
+
+.burger__nav-item:nth-last-child(1){
+    margin-bottom: 0;
+}
+
+.burger__contacts-title{
+   margin: 90px 0 0 0;
+}
+
+.burger__phone{
+    display: block;
+font-size: 20px;
+line-height: 45.62px;
+letter-spacing: -0.03em;
+color: #121212;
+}
+
+.burger__mail{
+    display: block;
+    font-size: 20px;
+    line-height: 45.62px;
+    letter-spacing: -0.03em;
+    color: #121212;
+    }
+
+.header-nav__list {
+    display: flex;
+    gap: 60px;
 }
 
 .nav__logo {
     width: 127px;
     height: 22px;
-    display: inline-block;
+
 }
 
-.header-nav__item {
-    display: inline;
-    margin-right: 60px;
+.burger__nav{
+    padding-top: 50px;
 }
+
+
 
 .header-nav__link {
     font-size: 18px;
@@ -25,9 +121,7 @@
     text-decoration: none;
 }
 
-.header-nav__item:nth-last-child(1) {
-    margin-right: 0;
-}
+
 
 .header-nav__link:hover {
     opacity: 50%;
@@ -61,7 +155,7 @@
 
 }
 
-@media (max-width: 960px){
+@media (max-width: 960px) {
 
     .box {
         margin-bottom: 120px;
@@ -82,11 +176,16 @@
 
 @media (max-width: 639px) {
 
+    .header-nav {
+        display: none;
+    }
+
     .box {
         margin-bottom: 80px;
     }
 
     .box__img {
+        display: none;
         margin-top: 25px;
         height: 350px;
     }
@@ -97,6 +196,23 @@
         left: 15px;
         font-size: 16px;
         line-height: 21.86px;
+
+    }
+
+    .burger-btn {
+
+        display: block;
+
+    }
+
+
+
+    .burger-btn_open {
+
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-image: url(../resources/radix-icons_cross-2.png);
 
     }
 
