@@ -168,7 +168,7 @@
     background-color: #851212;
 }
 
-.popup__input-wrapper {}
+
 
 .imput {
     width: 100%;
@@ -185,12 +185,12 @@
 
 }
 
-.imput:focus{
+.imput:focus {
     outline: none;
 }
 
-.imput:nth-child(3){
-margin-bottom: 80px;
+.imput:nth-child(3) {
+    margin-bottom: 80px;
 }
 
 
@@ -323,9 +323,9 @@ margin-bottom: 80px;
 
     }
 
-    .popup__container{
+    .popup__container {
 
-        padding: 80px 16px ;
+        padding: 80px 16px;
     }
 
     .imput {
@@ -334,12 +334,12 @@ margin-bottom: 80px;
         font-size: 18px;
         line-height: 25px;
 
-    
+
     }
 
-    .imput:nth-child(3){
+    .imput:nth-child(3) {
         margin-bottom: 60px;
-        }
-        
+    }
+
 
 }
