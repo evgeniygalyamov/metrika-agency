@@ -6,9 +6,11 @@
 @import "../styles/contacts.css";
 @import "../styles/footer.css";
 
+
 html {
     scroll-behavior: smooth;
 }
+
 
 
 body {
@@ -58,7 +60,7 @@ h3 {
 
 
 .about__content {
-    width: 1048px;
+    max-width: 1048px;
     font-size: 45px;
     line-height: 61.47px;
     letter-spacing: -0.03em;
@@ -211,7 +213,7 @@ h3 {
 
 
     h1 {
-        width: 802px;
+        max-width: 802px;
         font-size: 50px;
         line-height: 60px;
     }
@@ -229,7 +231,7 @@ h3 {
 
 
     .about__content {
-        width: 690px;
+        max-width: 690px;
         font-size: 35px;
         line-height: 47.81px;
 
@@ -280,7 +282,7 @@ h3 {
     }
 
     h1 {
-        width: 330px;
+        max-width: 330px;
         font-size: 30px;
         line-height: 31px;
         letter-spacing: -0.03em;
