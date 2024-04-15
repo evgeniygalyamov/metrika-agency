@@ -61,17 +61,17 @@
 
       <!-- О НАС -->
       <section id="about" class="about">
-      <div class="container">
-        <h2>О НАС</h2>
-        <p class="about__content">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации
-          интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные
-          решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
-        <a class="about__btn" href="#">Посмотреть услуги</a>
-      </div>
-    </section>
+        <div class="container">
+          <h2>О НАС</h2>
+          <p class="about__content">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации
+            интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные
+            решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
+          <a class="about__btn" href="#">Посмотреть услуги</a>
+        </div>
+      </section>
 
 
-      <!-- ПРОЕКТЫ --> 
+      <!-- ПРОЕКТЫ -->
       <section id="projects" class="projects">
         <div class="container">
           <h2>ПРОЕКТЫ</h2>
@@ -136,151 +136,173 @@
             </li>
 
           </ul>
-          <a href="#" class="services-btn">Заказать услугу</a>
+          <a class="js-btn services-btn">Заказать услугу</a>
 
         </div>
 
-      </section>
 
-      <!-- ОТЗЫВЫ -->
 
-      <section class="reviews">
+
+
+        <div class="js-popup popup">
+          <div class="js-popup__content popup__content">
+            <p class="popup__title">Заказать услугу</p>
+            <p class="popup-text">Заполните форму, мы свяжемся с вами в течение суток</p>
+
+            <div class="js-popup__close-btn popup__close-btn">
+              <img class="popup__close-btn-img" src="./resources/radix-icons_cross-2.png" alt="">
+            </div>
+            <div class="popup__btn-send">
+              <a href="" class="popup__btn-send-link">Отправить</a>
+            </div>
+          </div>
+        </div>
+
+
+</body>
+
+
+</section>
+
+<!-- ОТЗЫВЫ -->
+
+<section class="reviews">
+  <div class="container">
+    <h2>ОТЗЫВЫ</h2>
+    <ul class="reviews-list">
+      <li class="reviews-list__review-row">
+        <h3 class="review-title">Ксения, проект 65 кв.м.</h3>
+        <p class="review-text">Хочу искренне поблагодарить Вас за работу, проделанную на высоком уровне! Нам с
+          мужем было очень приятно с Вами работать! Спасибо за Ваше умение правильно слышать пожелания своих
+          клиентов и выполнять работу, которая превосходит все ожидания! Мы даже не надеялись, что на 34 кв.м.
+          кто-то сможет нам грамотно разместить все, что мы хотим и даже больше! <br><br>
+
+          Вам удалось это просто превосходно! Нам лишь осталось воплотить красоту, которую Вы нам создали в жизнь
+          и поделиться с Вами результатом</p>
+      </li>
+      <li class="reviews-list__review-row">
+        <h3 class="review-title">Регина, проект 89 кв.м.</h3>
+        <p class="review-text">Спасибо большое за такой классный проект! Все стильно, круто, продумано! Очень
+          приятно было с вами работать! Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального для нас
+          ремонта. Здорово, что мы нашли такого основательного, ответственного и внимательного к деталям
+          дизайнера! <br><br>
+
+          Хочется скорее реализовать проект и наслаждаться современной, функциональной и красивой квартирой! Будем
+          рекомендовать Вас всем друзьям и знакомым!</p>
+      </li>
+      <li class="reviews-list__review-bigrow">
+        <h3 class="review-title">Яна, проект 120 кв.м.</h3>
+        <p class="review-text">Хотелось бы сказать большое спасибо за проделанную работу! В задачу Марины входила
+          разработка дизайн-проекта в минимальные сроки, и мне, конечно, не хотелось при этом потерять качество
+          выполнения работы. Но волнения были напрасны: все вопросы решались оперативно, всегда предлагалось
+          несколько вариантов решения, а также предоставлялись комментарии, какой способ решения будет более
+          подходящим. <br> <br>
+
+          В итоге проект был сдан в оговоренный срок, и мне просто не терпится приступить к его реализации! Проект
+          получился очень стильным и современным! Буду рекомендовать Вас тем, кому еще предстоит это непростое
+          дело - ремонт!</p>
+      </li>
+    </ul>
+  </div>
+
+</section>
+
+
+
+<!-- ГАЛЕРЕЯ -->
+<section class="gallery-section">
+
+  <div class="gallery">
+
+    <div class="gallery__title-wrapper">
+      <div class="container">
+        <h2 class="gallery__title"> ГАЛЕРЕЯ ПРОЕКТОВ</h2>
+      </div>
+    </div>
+    <div class="gallery__slides">
+      <div class="gallery__slide gallery__slide_active">
+        <img src="./resources/interior1.png" alt="" class="box_img gallery__img">
         <div class="container">
-          <h2>ОТЗЫВЫ</h2>
-          <ul class="reviews-list">
-            <li class="reviews-list__review-row">
-              <h3 class="review-title">Ксения, проект 65 кв.м.</h3>
-              <p class="review-text">Хочу искренне поблагодарить Вас за работу, проделанную на высоком уровне! Нам с
-                мужем было очень приятно с Вами работать! Спасибо за Ваше умение правильно слышать пожелания своих
-                клиентов и выполнять работу, которая превосходит все ожидания! Мы даже не надеялись, что на 34 кв.м.
-                кто-то сможет нам грамотно разместить все, что мы хотим и даже больше! <br><br>
-
-                Вам удалось это просто превосходно! Нам лишь осталось воплотить красоту, которую Вы нам создали в жизнь
-                и поделиться с Вами результатом</p>
-            </li>
-            <li class="reviews-list__review-row">
-              <h3 class="review-title">Регина, проект 89 кв.м.</h3>
-              <p class="review-text">Спасибо большое за такой классный проект! Все стильно, круто, продумано! Очень
-                приятно было с вами работать! Спасибо, что терпели наши «хочу это, хочу то» в поисках идеального для нас
-                ремонта. Здорово, что мы нашли такого основательного, ответственного и внимательного к деталям
-                дизайнера! <br><br>
-
-                Хочется скорее реализовать проект и наслаждаться современной, функциональной и красивой квартирой! Будем
-                рекомендовать Вас всем друзьям и знакомым!</p>
-            </li>
-            <li class="reviews-list__review-bigrow">
-              <h3 class="review-title">Яна, проект 120 кв.м.</h3>
-              <p class="review-text">Хотелось бы сказать большое спасибо за проделанную работу! В задачу Марины входила
-                разработка дизайн-проекта в минимальные сроки, и мне, конечно, не хотелось при этом потерять качество
-                выполнения работы. Но волнения были напрасны: все вопросы решались оперативно, всегда предлагалось
-                несколько вариантов решения, а также предоставлялись комментарии, какой способ решения будет более
-                подходящим. <br> <br>
-
-                В итоге проект был сдан в оговоренный срок, и мне просто не терпится приступить к его реализации! Проект
-                получился очень стильным и современным! Буду рекомендовать Вас тем, кому еще предстоит это непростое
-                дело - ремонт!</p>
-            </li>
-          </ul>
+          <p class="gallery__slide-text">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
         </div>
-
-      </section>
-
-
-
-      <!-- ГАЛЕРЕЯ -->
-      <section class="gallery-section">
-
-        <div class="gallery">
-
-          <div class="gallery__title-wrapper">
-            <div class="container">
-              <h2 class="gallery__title"> ГАЛЕРЕЯ ПРОЕКТОВ</h2>
-            </div>
-          </div>
-          <div class="gallery__slides">
-            <div class="gallery__slide gallery__slide_active">
-              <img src="./resources/interior1.png" alt="" class="box_img gallery__img">
-              <div class="container">
-                <p class="gallery__slide-text">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
-              </div>
-            </div>
-            <div class="gallery__slide">
-              <img src="./resources/interior2.png" alt="" class="box_img gallery__img">
-              <div class="container">
-                <p class="gallery__slide-text">Проект гостиной в ЖК Маяк</p>
-              </div>
-            </div>
-            <div class="gallery__slide">
-              <img src="./resources/interior3.png" alt="" class="box_img gallery__img">
-              <div class="container">
-                <p class="gallery__slide-text">Визуализация кухни-гостиной в частном доме</p>
-              </div>
-            </div>
-            <div class="gallery__slide">
-              <img src="./resources/interior4.png" alt="" class="box_img gallery__img">
-              <div class="container">
-                <p class="gallery__slide-text">Проект кухни в скандинавском стиле для ЖК Северный Ветер</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="gallery__controls-wrapper">
-            <div class="container">
-              <div class="gallery__controls">
-                <div class="gallery__control-prev"> </div>
-                <div class="gallery__control-next"> </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </section>
-
-
-      <!-- КОНТАКТЫ -->
-      <section id="contacts" class="contacts">
+      </div>
+      <div class="gallery__slide">
+        <img src="./resources/interior2.png" alt="" class="box_img gallery__img">
         <div class="container">
-          <h2 class="cotacts__tile">КОНТАКТЫ</h2>
-          <div class="contacts__wrapper">
-            <div class="phone__wrapper">
-              <a class="phone__wrapper-link" href="tel:+79358954535">+7 935 895-45-35</a>
-            </div>
-            <div class="mail__wrapper">
-              <a class="mail__wrapper-link" href="mailto:hello@mail.com">hello@mail.com</a>
-            </div>
-          </div>
+          <p class="gallery__slide-text">Проект гостиной в ЖК Маяк</p>
         </div>
-      </section>
-
-    </main>
-
-    <!-- ПОДВАЛ -->
-    <footer class="footer">
-    <div class="container">
-      <nav class="footer-nav">
-        <ul class="footer-nav__list">
-          <li class="footer-nav__item">
-            <a href="#about" class="footer-nav__link">О НАС</a>
-          </li>
-          <li class="footer-nav__item">
-            <a href="#projects" class="footer-nav__link">ПРОЕКТЫ</a>
-          </li>
-          <li class="footer-nav__item">
-            <a href="#services" class="footer-nav__link">УСЛУГИ</a>
-          </li>
-          <li class="footer-nav__item">
-            <a href="#contacts" class="footer-nav__link">КОНТАКТЫ</a>
-          </li>
-        </ul>
-        <p class="footer__description">студия дизайна интерьера Метрика — 2023</p>
-      </nav>
+      </div>
+      <div class="gallery__slide">
+        <img src="./resources/interior3.png" alt="" class="box_img gallery__img">
+        <div class="container">
+          <p class="gallery__slide-text">Визуализация кухни-гостиной в частном доме</p>
+        </div>
+      </div>
+      <div class="gallery__slide">
+        <img src="./resources/interior4.png" alt="" class="box_img gallery__img">
+        <div class="container">
+          <p class="gallery__slide-text">Проект кухни в скандинавском стиле для ЖК Северный Ветер</p>
+        </div>
+      </div>
     </div>
 
-  </footer>
+    <div class="gallery__controls-wrapper">
+      <div class="container">
+        <div class="gallery__controls">
+          <div class="gallery__control-prev"> </div>
+          <div class="gallery__control-next"> </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
 
 
-    <script src="gallery.js"></script>
+<!-- КОНТАКТЫ -->
+<section id="contacts" class="contacts">
+  <div class="container">
+    <h2 class="cotacts__tile">КОНТАКТЫ</h2>
+    <div class="contacts__wrapper">
+      <div class="phone__wrapper">
+        <a class="phone__wrapper-link" href="tel:+79358954535">+7 935 895-45-35</a>
+      </div>
+      <div class="mail__wrapper">
+        <a class="mail__wrapper-link" href="mailto:hello@mail.com">hello@mail.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ПОДВАЛ -->
+<footer class="footer">
+  <div class="container">
+    <nav class="footer-nav">
+      <ul class="footer-nav__list">
+        <li class="footer-nav__item">
+          <a href="#about" class="footer-nav__link">О НАС</a>
+        </li>
+        <li class="footer-nav__item">
+          <a href="#projects" class="footer-nav__link">ПРОЕКТЫ</a>
+        </li>
+        <li class="footer-nav__item">
+          <a href="#services" class="footer-nav__link">УСЛУГИ</a>
+        </li>
+        <li class="footer-nav__item">
+          <a href="#contacts" class="footer-nav__link">КОНТАКТЫ</a>
+        </li>
+      </ul>
+      <p class="footer__description">студия дизайна интерьера Метрика — 2023</p>
+    </nav>
+  </div>
+
+</footer>
+
+
+<script src="/popup.js"></script>
 </body>
 
 </html>
