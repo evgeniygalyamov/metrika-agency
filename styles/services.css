@@ -68,6 +68,7 @@
 }
 
 .services-btn:hover {
+    cursor: pointer;
     background-color: #851212;
 }
 
