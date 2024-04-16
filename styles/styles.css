@@ -150,6 +150,7 @@ h3 {
 
 .gallery__control-prev {
     background-image: url(../resources/Vector.svg);
+    background-size: contain;
     background-repeat: no-repeat;
     margin-right: 15px;
     width: 40px;
@@ -159,6 +160,7 @@ h3 {
 
 .gallery__control-next {
     background-image: url(../resources/Vector-1.svg);
+    background-size: contain;
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
