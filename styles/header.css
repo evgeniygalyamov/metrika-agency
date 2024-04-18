@@ -192,6 +192,7 @@
     }
 
     .box__img {
+       display: block;
         margin-top: 25px;
         height: 350px;
     }
