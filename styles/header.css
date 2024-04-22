@@ -26,6 +26,7 @@
     width: 80%;
     height: 100%;
     background-color: white;
+    z-index: 100;
 }
 
 .burger-btn {
@@ -148,6 +149,7 @@
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
+
 }
 
 .box__img-content {
@@ -164,6 +166,10 @@
 
 @media (max-width: 960px) {
 
+    .header-nav {
+        display: none;
+    }
+
     .box {
         margin-bottom: 120px;
     }
@@ -174,35 +180,9 @@
 
 
     .box__img-content {
+        z-index: 98;
         bottom: 30px;
         left: 40px;
-
-    }
-
-}
-
-@media (max-width: 639px) {
-
-    .header-nav {
-        display: none;
-    }
-
-    .box {
-        margin-bottom: 80px;
-    }
-
-    .box__img {
-       display: block;
-        margin-top: 25px;
-        height: 350px;
-    }
-
-    .box__img-content {
-        max-width: 312px;
-        bottom: 15px;
-        left: 15px;
-        font-size: 16px;
-        line-height: 21.86px;
 
     }
 
@@ -222,8 +202,35 @@
         height: 34px;
         background-size: cover;
         background-image: url(../resources/radix-icons_cross-2.png);
-        background-size: cover;
+     
         background-repeat: no-repeat;
 
     }
 
+}
+
+@media (max-width: 639px) {
+
+
+
+    .box {
+        margin-bottom: 80px;
+    }
+
+    .box__img {
+
+        margin-top: 25px;
+        height: 350px;
+    }
+
+    .box__img-content {
+        max-width: 312px;
+        bottom: 15px;
+        left: 15px;
+        font-size: 16px;
+        line-height: 21.86px;
+
+    }
+
+
+}
