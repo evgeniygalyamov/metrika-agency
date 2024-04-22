@@ -2,9 +2,12 @@
     margin-bottom: 150px;
 }
 
-.project {
-    margin-bottom: 90px;
 
+
+.projects__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
 }
 
 .project__img {
@@ -56,9 +59,8 @@
         margin-bottom: 120px;
     }
 
-    .project {
-        margin-bottom: 80px;
-
+    .projects__list{
+        gap: 80px;
     }
 
 
@@ -81,11 +83,9 @@
         margin-bottom: 80px;
     }
 
-    .project {
-        margin-bottom: 50px;
-
+    .projects__list{
+        gap: 50px;
     }
-
 
 
     .project__title {
