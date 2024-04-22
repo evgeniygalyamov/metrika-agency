@@ -2,9 +2,18 @@
     margin-bottom: 150px;
 }
 
+.project__img-box {
+    width: 100%;
+    height: 450px;
 
+}
 
-.projects__list{
+.project{
+    display: flex;
+    flex-direction: column;
+}
+
+.projects__list {
     margin-bottom: 90px;
     display: flex;
     flex-wrap: wrap;
@@ -13,7 +22,7 @@
 
 .project__img {
     width: 100%;
-    display: block;
+    height: 100%;
     object-fit: cover;
     object-position: 27%;
 
@@ -54,13 +63,13 @@
 }
 
 
-@media (max-width: 960px){
+@media (max-width: 960px) {
 
     .projects {
         margin-bottom: 120px;
     }
 
-    .projects__list{
+    .projects__list {
         margin-bottom: 100px;
         gap: 80px;
     }
@@ -85,7 +94,7 @@
         margin-bottom: 80px;
     }
 
-    .projects__list{
+    .projects__list {
         margin-bottom: 60px;
         gap: 50px;
     }
