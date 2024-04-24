@@ -2,7 +2,7 @@ const BURGER_OPENED_CLASSNAME_2 = 'burger_open';
 const BURGER_BTN_OPENED_CLASSNAME_2 = 'burger-btn_open';
 const BODY_FIXED_CLASSNAME_2 = 'body_fixed';
 
-const bodyNode = document.querySelector('body');
+const bodyNode2 = document.querySelector('body');
 const burgerNode = document.querySelector('.js-burger');
 const burgerBtnNode = document.querySelector('.js-burger-btn');
 const burgerContentNode = document.querySelector('.js-burger__content')
