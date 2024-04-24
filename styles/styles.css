@@ -316,7 +316,7 @@ h3 {
 
 
     .about__content {
-        width: 346px;
+    max-width: 346px;
         font-size: 22px;
         line-height: 30.05px;
 
