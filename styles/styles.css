@@ -264,6 +264,7 @@ h3 {
     }
 
     .gallery__slide-text {
+         max-width: 375px;
         bottom: 80px;
         font-size: 25px;
 
@@ -271,7 +272,7 @@ h3 {
     }
 
     .gallery__controls-wrapper {
-        bottom: 152px;
+        bottom: 166px;
     }
 
 
@@ -375,13 +376,13 @@ h3 {
     }
 
     .gallery__control-prev {
-        width: 30px;
+        width: 20px;
         height: 30px;
 
     }
 
     .gallery__control-next {
-        width: 30px;
+        width: 20px;
         height: 30px;
     }
 
