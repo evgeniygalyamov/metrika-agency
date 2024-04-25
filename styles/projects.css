@@ -89,7 +89,7 @@
 
 }
 
-@media (max-width: 639px) {
+@media (max-width: 745px) {
 
     .projects {
         margin-bottom: 80px;
@@ -109,7 +109,7 @@
     }
 
     .project__img-box{
-        height: 250px;
+         height: 280px;
     }
 
 
