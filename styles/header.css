@@ -14,7 +14,7 @@
     opacity: 0;
     visibility: hidden;
     transition: all 0.2s ease;
-        z-index: 100;
+z-index: 99;
 }
 
 .burger_open {
@@ -27,23 +27,23 @@
     width: 80%;
     height: 100%;
     background-color: white;
-    z-index: 100;
+
 }
 
 .burger-btn {
     width: 42px;
-   height: 9px;
+    height: 9px;
     position: absolute;
     right: 10px;
-    border: none; 
-    outline: none; 
+    border: none;
+    outline: none;
     background: transparent;
     z-index: 100;
     display: none;
     background-image: url(../resources/burger.png);
     background-size: cover;
     background-repeat: no-repeat;
-  
+
 }
 
 .burger-img {
@@ -141,6 +141,7 @@
     margin-bottom: 150px;
 }
 
+
 .box__img {
     margin-top: 30px;
     width: 100%;
@@ -203,7 +204,7 @@
         height: 34px;
         background-size: cover;
         background-image: url(../resources/radix-icons_cross-2.png);
-     
+
         background-repeat: no-repeat;
 
     }
